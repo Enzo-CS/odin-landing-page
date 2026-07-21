@@ -89,7 +89,7 @@ li a {
 .content-skills {
     display: flex;
     flex-direction: column;
-    padding: 40px 120px;
+    padding: 80px 120px;
     gap: 40px;
 }
 
@@ -121,6 +121,25 @@ li a {
 }
 
 /* 4. Quote */
+
+.content-quotation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    padding: 80px 120px;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 700;
+}
 
 
 /* 5. Sign Up / CTA */
