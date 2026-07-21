@@ -23,7 +23,7 @@ a {
 }
 
 li a {
-    color: #c4c6c6;
+    color: #a0a0a0;
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 200px;
+    gap: 40px;
     padding: 80px 120px;
     background-color: #1f2937;
 }
@@ -68,7 +68,7 @@ li a {
 
 .author-about {
     font-size: 18px;
-    color: #c4c6c6;
+    color: #a0a0a0;
 }
 
 .content-welcome-button {
@@ -86,7 +86,39 @@ li a {
 }
 
 /* 3. Skills */
+.content-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 120px;
+    gap: 40px;
+}
 
+.content-skills h2 {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill img {
+    width: 100px;
+    border: #3882F6 solid 4px;
+}
+
+.skill p {
+    text-align: center;
+    color: #a0a0a0;
+}
 
 /* 4. Quote */
 
