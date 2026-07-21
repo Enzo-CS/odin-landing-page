@@ -112,7 +112,8 @@ li a {
 
 .skill img {
     width: 100px;
-    border: #3882F6 solid 4px;
+    border: #3882F6 solid 3px;
+    border-radius: 10px;
 }
 
 .skill p {
@@ -142,7 +143,32 @@ li a {
 }
 
 /* 5. Sign Up / CTA */
+.content-call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 80px 120px;
+}
 
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #3882F6;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.call-to-action-text p {
+    color: #F9FAF8;
+}
+
+.call-to-action-button {
+    width: 100px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: #F9FAF8 solid 2px;
+    border-radius: 10px;
+}
 
 
 /* 6. Footer */
