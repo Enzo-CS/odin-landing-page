@@ -141,8 +141,16 @@ li a {
     font-weight: 700;
 }
 
-
 /* 5. Sign Up / CTA */
 
 
+
 /* 6. Footer */
+.footer {
+    font-size: 12px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: center;
+}
